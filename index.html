@@ -8,6 +8,38 @@
         header { border-bottom: 2px solid #ccc; margin-bottom: 2rem; }
         footer { margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 1rem; font-size: 0.8rem; color: #555; }
         a { text-decoration: none; color: #0066cc; }
+        
+        .announcement {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #333;
+            margin-top: 15px;
+        }
+        
+        .announcement-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        
+        .announcement-text {
+            color: #d9534f; /* Red color for emphasis */
+        }
+
+        .activity {
+            margin-bottom: 20px;
+        }
+
+        .activity img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -31,18 +63,34 @@
                 margin-bottom: 20px; /* Adjust the value to increase or decrease spacing */
             }
             </style>
+
+            <!-- New latest activity -->
+            <li class="activity">
+                <strong>Serving as TPC Member for Design Automation Conference (DAC) 2025 & Award Recognition</strong><br>
+                    I am honored to serve as a Technical Program Committee (TPC) member for the <strong>Design Automation Conference (DAC) 2025</strong>. This year, I was recognized as an <strong>Outstanding TPC Member</strong> for my contributions to the conference.  
+    Additionally, I had the privilege of serving as the <strong>Session Chair</strong> for the session titled <em>"Smarter Compute, Faster Inference: Optimizing AI Systems on Edge"</em> alongside <strong>Prof. Xiaoxuan Yang</strong>.
+                    <br><br>
+            </li>
+
+            <!-- Future entries go here -->
             
             <li>
                 <strong>Instructor on <span style="color:green;">Compiler Design </span> at Drexel University (April 2025 - June 2025)</strong><br>
                     Students will create their own programming language and write a compiler for it that translates this language all the way down to machine code which can be executed on the Intel IA-64 architecture. All major steps of the translation process will be covered: scanning, syntax analysis, code generation, and code optimization. The compiler will be developed using LLVM (https://llvm.org/), a very popular compiler infrastructure toolchain used by developers to create new programming languages or domain specific languages. <a href="https://drive.google.com/file/d/1aM-wRUH7UnSbY-or0DyIwSTXRCChJe_-/view?usp=sharing">View Syllabus</a>
+                
+                <!-- Announcement placed at the bottom of this <li> -->
+                <div class="announcement">
+                    <span class="announcement-icon">🚀</span>
+                    <span class="announcement-text">We are excited to announce that a comprehensive book based on the compiler design course material is in progress. The book will be publicly available soon, offering an in-depth exploration of the concepts covered in the course.</span>
+                </div>
             </li>
             
             <li>
                 <strong>Guest Speaker on <span style="color:green;">AI Hardware & Systems: CUDA Internals</span> at Drexel University (March 2025)</strong><br>
                             Drexel offers a parallel programming class teaching CUDA for high-performance computing and AI. To deepen students' understanding beyond typical academic content, my guest lecture focused on CUDA's internal mechanisms—how it works behind the scenes—and introduced state-of-the-art GPU architecture, empowering students to stay at the forefront of GPU technology developments. <a href="https://drive.google.com/file/d/1Z1rTvqSMgF9k-YSbsHju9oB_XUoyVIQv/view?usp=sharing">View My Presentation</a>
-
             </li>
-            <!-- Future entries go here -->
+
+            
         </ul>
     </section>
 
